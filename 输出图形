@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	char a,c;
+	int i,n,r;
+	a= getchar();
+	for(r=1;r<=(int)(a-'A');r++)
+	{
+		for(c=a;c>='A';c--)
+			printf("%c",c);
+		for(n=1;n<=2*r-1;n++)
+			printf("\n");
+	}
+	return 0;
+ } 
